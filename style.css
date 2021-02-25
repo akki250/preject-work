@@ -1,0 +1,72 @@
+h1{
+    color:rgb(60, 255, 0);
+}
+.box1{
+    background-color: rgb(3, 78, 240);
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+.grid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu a{
+margin-Right: 30px;
+
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    
+    opacity:1 ;
+}
+.item:hover img{
+    opacity:0.34
+}
+
+
+.harrier
+{background-color: rgb(15, 31, 255);
+padding-top: 30px;
+padding-left:400px;
+padding-bottom:30px ;
+
+
+
+}
+.harrier p{
+    font-family: 'Lucida handwriting';
+    font-size: x-large;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
